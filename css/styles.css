@@ -1,12 +1,13 @@
 :root {
 --primary-text-color:#757575;
---title-text-color:#000;
+--primary-black-color: #212121;
+--logo-black-color:#000;
 --accent-color:#2196F3;
 --primary-white-color:#FFFFFF;
 --footer-contacts-text-color: rgba(255, 255, 255, 0.6);
 --background-color-hero:#2F303A;
 --background-color-second; #E5E5E5;
---background-color-third: #F5F4FA;
+
 /* Fonts */
 --main-font-family:'Roboto', sans-serif;
 --logo-font-family:'Raleway', sans-serif;
@@ -15,14 +16,18 @@
  body {
     font-family: var(--main-font-family);
     color: var(--primary-text-color);
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
     
  }
 .header {
     background-color: var(--primary-white-color);
-    display: flex;
+    font-family: var(--main-font-family);
 }
 .logo {
-color: var(--title-text-color);
+color: var(--logo-black-color);
 font-family: var(--logo-font-family);
 text-decoration: none;
 font-weight: 700;
@@ -33,29 +38,128 @@ line-height: 1.19;
 color: var(--accent-color);
 }
 .nav-list {
+    font-family: inherit;
+    color: var(--primary-black-color);
     font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.nav-item {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
+.header-contacts {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
 .current {
+    text-decoration: none;
     color: var(--accent-color);
 }
- .link {
-    text-decoration: none;
-    color: inherit;
- }
 
- .button {
+ 
+ .list {
+     list-style: none;
+ }
+ .hero .footer {
+    background-color: var(--background-color-hero);
+}
+
+.hero-h { 
+    color: var(--primary-white-color);
+    font-family: var(--main-font-family);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+ .hero-button {
     border: none;
     background-color: var(--accent-color);
     cursor: pointer;
     font-family: inherit;
-    color: var(--primary-white-color)
- }
-.list {
-    list-style: none;
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
- .section {
-    background-color: ;
+.Specialities .our-job {
+ background-color:var(--background-color-second);
+}
+
+.special-header {
+    color: var(--primary-black-color);
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.sect-header {
+    color: var(--primary-black-color);
+    text-align: center;
+}
+.the-team {
+background-color: #F5F4FA;
+}
+.name-header {
+    color: var(--primary-black-color);
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+footer {
+    background-color: var(--background-color-hero);
+}
+
+.logo-white {
+  color: #FFFFFF; 
+font-family: var(--logo-font-family);
+text-decoration: none;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.placement {
+color: var(--primary-white-color);
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-contacts {
+    color: var(--footer-contacts-text-color);
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+         letter-spacing: 0.03em;
+}
+
+ .link {
+text-decoration: none;
  }
