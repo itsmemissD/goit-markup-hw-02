@@ -1,0 +1,41 @@
+:root {
+--primary-text-color: #757575;
+--title-text-color: #000;
+--accent-color:#2196F3;
+--primary-white-color:#FFFFFF;
+--footer-contacts-text-color: rgba(255, 255, 255, 0.6);
+--background-color-hero: #2F303A;
+--background-color-second; #E5E5E5;
+--background-color-third: #F5F4FA;
+/* Fonts */
+--main-font-family: 'Roboto', sans-serif;
+--logo-font-family: 'Raleway', sans-serif;
+}
+
+ body {
+    font-family: var(--main-font-family);
+    color: var(--primary-text-color);
+    
+ }
+header {
+    background-color: var(--primary-white-color);
+    display: flex;
+}
+ .link {
+    text-decoration: none;
+    color: inherit;
+ }
+
+ .button {
+    border: none;
+    background-color: var(--accent-color);
+    cursor: pointer;
+    font-family: inherit;
+    color: var(--primary-white-color)
+ }
+.list {
+    list-style: none;
+}
+ .section {
+    background-color: ;
+ }
