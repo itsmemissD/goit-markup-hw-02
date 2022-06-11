@@ -69,7 +69,10 @@ color: var(--accent-color);
  .list {
      list-style: none;
  }
- .hero .footer {
+ .hero {
+    background-color: var(--background-color-hero);
+ }
+ .footer {
     background-color: var(--background-color-hero);
 }
 
@@ -93,7 +96,23 @@ color: var(--accent-color);
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
+
 }
+
+/* Семантично скрыто */
+.visually-hidden {
+    position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+}
+
 .Specialities .our-job {
  background-color:var(--background-color-second);
 }
@@ -155,11 +174,12 @@ font-weight: 400;
 .footer-contacts {
     color: var(--footer-contacts-text-color);
     font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-         letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
  .link {
-text-decoration: none;
+   text-decoration: none;
+    color: inherit;
  }
