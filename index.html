@@ -17,36 +17,42 @@
 
         <!--Шапка-->
         <header class="header">
-            <div class="">
+            <div class="container">
             
               <a class="logo" href="#"> <span class="web-span"> Web</span>Studio </a>
             <nav class="site-nav"> 
             <ul class="list nav-list">
                 <li>
-                    <a class="current link nav-item" href="#"> Студия </a>
+                    <a href="#" class="current link nav-item"> Студия </a>
                 </li>
-                <li><a class="link nav-item" href="#"> Портфолио </a>
+                <li><a href="#" class="link nav-item"> Портфолио </a>
                 </li>
-                <li><a class="link nav-item" href="#"> Контакты </a>
+                <li><a href="#" class="link nav-item"> Контакты </a>
                 </li>
             </ul>
             </nav>
             
             <ul class=" list header-contacts">
-             <li class="current"><a class="link" href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
-             <li><a  class="link" href="tel:+380961111111">+38 096 111 11 11</a> </li>
+             <li class="current"><a href="mailto:info@devstudio.com" class="link"> info@devstudio.com </a></li>
+             <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a> </li>
             </ul>
+            
+            
             </div> 
         </header>
 
 <!--Герой-->
-        <section class="hero"> 
+
+<section class="hero"> 
+ <div class="container">
 <h1 class="hero-h">Эффективные решения для вашего бизнеса</h1>
- <button class=" button hero-button" type="button">Заказать услугу</button> 
-        </section>
+<div class="button">
+ <button type="button" class="button hero-button">Заказать услугу</button> 
+        </div> </div>
+</section>
 
         <!--Особенности-->
-<section class="Specialities">
+<div class="container Specialities">
     <h2 class="visually-hidden">Особенности</h2>
 <ul class=" list specialities-list">
     <li><h3 class="special-header">Внимание к деталям</h3><p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p></li>
@@ -54,20 +60,24 @@
     <li><h3 class="special-header">Планирование</h3><p>Равным образом консультация с широким активом в значительной степени обуславливает.</p></li>
     <li><h3 class="special-header">Современные технологии</h3><p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
 </ul>
+</div>
 </section>
 
 <!--Чем мы занимаемся-->
 <section class="our-job">
+    <div class="container">
     <h2 class="sect-header">Чем мы занимаемся</h2>
     <ul class="list job-list">
         <li><a href="#"><img src="./images/box-1.jpg" alt="box-1" width="370"/> </a> </li>
         <li><a href="#"><img src="./images/box-2.jpg" alt="box-1" width="370"/></a> </li>
         <li><a href="#"><img src="./images/box-3.jpg" alt="box-1" width="370"/></a> </li>
     </ul>
+    </div>
 </section>
 
 <!--Наша команда-->
 <section class="the-team>">
+    <div class="container">
     <h2 class="sect-header">Наша команда</h2>
     <ul class="list">
         <li> 
@@ -91,6 +101,7 @@
             <p class="team-p">UI Designer</p>
         </li>
     </ul>
+    </div>
 </section>
 
 <!--Футер-->
@@ -98,7 +109,7 @@
        <a class="logo-white" href="#"> <span class="web-span"> Web</span>Studio </a>   
 
        <address>
-      <ul class="list">
+      <ul class=" link list">
         <li class="placement"> 
          <a> г. Киев, пр-т Леси Украинки, 26 </a> 
        </li>
